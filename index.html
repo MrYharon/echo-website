@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Echo &mdash; The AI Prompt Compiler</title>
+  <meta name="description" content="Echo decompiles conversational streams of consciousness into structured, airtight prompt contracts for ChatGPT, Claude, and Gemini." />
+  
+  <!-- Open Graph & Social Cards (Discord, Messenger, Twitter, Facebook, Slack) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Echo" />
+  <meta property="og:title" content="Echo &mdash; The AI Prompt Compiler" />
+  <meta property="og:description" content="Decompiles stream-of-consciousness thought dumps into structured, airtight prompt specifications for ChatGPT, Claude, and Gemini." />
+  <meta property="og:image" content="assets/brand-logo.png" />
+  <meta property="og:image:secure_url" content="assets/brand-logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="335" />
+  <meta property="og:image:height" content="297" />
+  <meta property="og:image:alt" content="Echo Monogram Emblem" />
+
+  <!-- Twitter / Discord Rich Embed Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Echo &mdash; The AI Prompt Compiler" />
+  <meta name="twitter:description" content="Decompiles stream-of-consciousness thought dumps into structured, airtight prompt specifications for ChatGPT, Claude, and Gemini." />
+  <meta name="twitter:image" content="assets/brand-logo.png" />
+  <meta name="theme-color" content="#131e33" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/brand-logo.png" />
+  <link rel="apple-touch-icon" href="assets/brand-logo.png" />
+</head>
+<body>
+  <!-- Full-Bleed Kinetic Soundwave Ripple Canvas -->
+  <canvas id="fluid-canvas"></canvas>
+
+  <div class="site-container">
+    <!-- Gallery Navigation Bar -->
+    <header class="site-nav">
+      <div class="nav-grid">
+        <a href="#" class="nav-brand-group">
+          <div class="nav-brand-logo">
+            <img src="assets/brand-logo.png" alt="Echo Monogram Emblem" />
+          </div>
+          <span class="nav-brand-text">Echo</span>
+        </a>
+
+        <ul class="nav-anchors">
+          <li><a href="#laboratory" class="nav-anchor">Laboratory</a></li>
+          <li><a href="#deconstruction" class="nav-anchor">Deconstruction</a></li>
+          <li><a href="#installation" class="nav-anchor">Installation</a></li>
+          <li><a href="#comparison" class="nav-anchor">Comparison</a></li>
+        </ul>
+
+        <div style="display: flex; align-items: center; gap: 28px;">
+          <a href="https://github.com/MrYharon/Echo" target="_blank" class="nav-anchor">GitHub &nearr;</a>
+          <a href="assets/echo-extension.zip" download class="nav-download-link">Download Extension &darr;</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Asymmetric Editorial Hero -->
+      <section class="hero-asymmetric fade-in-element">
+        <div class="hero-two-column">
+          <div class="hero-left-column">
+            <span class="hero-kicker">Compiler Layer for Large Language Models</span>
+            <h1 class="hero-h1">
+              Stop writing sloppy prompts.<br />
+              Start <span class="italic-highlight">compiling</span> them.
+            </h1>
+            <p class="hero-p">
+              Echo is an in-DOM prompt compiler for ChatGPT, Claude, and Gemini. It intercepts raw conversational thought dumps, isolating intent, promoting negative guardrails, and stripping attention-diluting noise before the model processes your tokens.
+            </p>
+            <div class="hero-links-row">
+              <a href="assets/echo-extension.zip" download class="text-action-link">
+                Download Extension (.zip) &darr;
+              </a>
+              <a href="#laboratory" class="text-subtle-link">
+                Open Interactive Laboratory &rarr;
+              </a>
+              <a href="https://github.com/MrYharon/Echo" target="_blank" class="text-subtle-link">
+                View Source on GitHub &nearr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Kinetic Interactive 'E' Monogram Sculpture -->
+          <div class="hero-sculpture-container">
+            <div class="sculpture-card" id="monogram-sculpture">
+              <div class="sculpture-bg-lines"></div>
+              <svg class="monogram-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Top Stepped Slab (Exactly matching brand monogram) -->
+                <path class="slab-top" d="M 32,30 H 168 V 56 H 70 V 65 H 32 Z" fill="#ffffff" />
+                <!-- Middle Floating Slab -->
+                <path class="slab-mid" d="M 32,87 H 130 V 113 H 32 Z" fill="#ffffff" />
+                <!-- Bottom Stepped Slab (Mirror stepped notch) -->
+                <path class="slab-bot" d="M 32,135 H 70 V 145 H 168 V 171 H 32 Z" fill="#ffffff" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Asymmetric Editorial Philosophy (Right Indented) -->
+      <section class="statement-section fade-in-element">
+        <div class="statement-box">
+          <div class="statement-quote">
+            &ldquo;A large language model doesn&rsquo;t need your conversational politeness. It needs an unambiguous interface contract.&rdquo;
+          </div>
+          <div class="statement-author">Echo Meta-Compiler Architectural Axiom</div>
+        </div>
+      </section>
+
+      <!-- Diagonal Staggered Feature Layout (Alternating Alignments) -->
+      <section id="deconstruction" class="staggered-section">
+        <!-- Feature 1: Left Text, Right Visual -->
+        <div class="stagger-item fade-in-element">
+          <div class="stagger-text">
+            <div class="stagger-num">01 / DECONSTRUCT</div>
+            <h2 class="stagger-heading">Noise Elimination</h2>
+            <p class="stagger-p">
+              Conversational fillers like &ldquo;I mean&rdquo;, &ldquo;you know&rdquo;, and &ldquo;and stuff right&rdquo; consume critical attention heads and bias the LLM toward casual, unfocused outputs. Echo systematically purges filler while preserving 100% of the underlying intent.
+            </p>
+          </div>
+          <div class="stagger-visual">
+            <div class="stagger-visual-slab">
+              <div class="visual-slab-bar">
+                <span>Attention Filter</span>
+                <span>Stripped Tokens</span>
+              </div>
+              <span class="diff-chip-removed">&times; "I mean you can't just copy paste everything"</span>
+              <span class="diff-chip-removed">&times; "and stuff right if I'm talking like this"</span>
+              <span class="diff-chip-removed">&times; "what do you think can be the best thing"</span>
+              <div style="font-size: 13px; font-weight: 700; color: #15803d; margin-top: 14px;">
+                &check; 42% token reduction &bull; Distraction vectors neutralized
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 2: Right Text, Left Visual (Reversed) -->
+        <div class="stagger-item reverse fade-in-element">
+          <div class="stagger-text">
+            <div class="stagger-num">02 / ENFORCE</div>
+            <h2 class="stagger-heading">Negative Guardrails</h2>
+            <p class="stagger-p">
+              When humans write negative constraints like &ldquo;Don&rsquo;t write code yet&rdquo; or &ldquo;No third-party libraries&rdquo; inside long paragraphs, models frequently ignore them due to recency bias. Echo hoists negative constraints into high-priority guardrail directives.
+            </p>
+          </div>
+          <div class="stagger-visual">
+            <div class="stagger-visual-slab">
+              <div class="visual-slab-bar">
+                <span>Guardrail Synthesizer</span>
+                <span>Enforced Bounds</span>
+              </div>
+              <span class="diff-chip-promoted">PRIORITY BOUNDARY: Do NOT generate code implementations.</span>
+              <span class="diff-chip-promoted">PRIORITY BOUNDARY: Do NOT introduce external ORMs or dependencies.</span>
+              <div style="font-size: 13px; font-weight: 700; color: var(--brand-blue); margin-top: 14px;">
+                &check; Hoisted to top-level instructions &bull; Zero violation rate
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 3: Left Text, Right Visual -->
+        <div class="stagger-item fade-in-element">
+          <div class="stagger-text">
+            <div class="stagger-num">03 / ISOLATE</div>
+            <h2 class="stagger-heading">Intent &amp; Deliverable Separation</h2>
+            <p class="stagger-p">
+              Multi-sentence prompts often bury questions inside speculative thoughts. Echo extracts every explicit requirement and inquiry into numbered deliverables, forcing the model to address each point sequentially without skipping edge cases.
+            </p>
+          </div>
+          <div class="stagger-visual">
+            <div class="stagger-visual-slab">
+              <div class="visual-slab-bar">
+                <span>Deliverable Decompiler</span>
+                <span>Output Schema</span>
+              </div>
+              <div style="font-family: var(--font-code); font-size: 12px; line-height: 1.8; color: var(--ink-navy);">
+                1. Architectural trade-offs: Edge vs Dedicated Server<br />
+                2. Latency profile comparison against sub-second SLAs<br />
+                3. Database requirement analysis for prompt cache persistence
+              </div>
+              <div style="font-size: 13px; font-weight: 700; color: #15803d; margin-top: 14px;">
+                &check; Structured contract verified
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- The Live Compiler Laboratory (Full Width Split Workbench) -->
+      <section id="laboratory" class="laboratory-section fade-in-element">
+        <div class="lab-title-row">
+          <div class="stagger-num">INTERACTIVE WORKBENCH</div>
+          <h2 class="lab-headline">Test the compiler live</h2>
+          <p class="lab-subheadline">
+            Type or paste any messy human thought dump below. See how Echo decompiles intent, extracts negative constraints, and formats an airtight prompt contract.
+          </p>
+        </div>
+
+        <div class="lab-workbench-slab">
+          <div class="lab-nav-bar">
+            <div class="lab-live-indicator">
+              <span class="pulse-dot"></span>
+              <span>Echo Meta-Compiler Engine</span>
+            </div>
+            <div class="lab-mode-picker">
+              <button class="mode-tab-btn active" data-mode="structured" type="button">Structured</button>
+              <button class="mode-tab-btn" data-mode="concise" type="button">Concise</button>
+              <button class="mode-tab-btn" data-mode="deep_reasoning" type="button">Deep Reasoning</button>
+            </div>
+          </div>
+
+          <div class="lab-grid-columns">
+            <!-- Left Column: Raw Input -->
+            <div class="lab-col input-col">
+              <div class="col-header-bar">
+                <span class="col-label-title">Raw Human Thought (Before)</span>
+                <span class="score-chip messy" id="clarity-before">Clarity: 38/100 (Messy)</span>
+              </div>
+
+              <div class="preset-chip-row">
+                <span style="font-size: 11px; font-weight: 700; color: var(--ink-muted);">Samples:</span>
+                <button class="preset-btn" data-sample="booking" type="button">Booking Engine</button>
+                <button class="preset-btn" data-sample="react" type="button">React State Bug</button>
+                <button class="preset-btn" data-sample="postgres" type="button">PostgreSQL Query</button>
+              </div>
+
+              <textarea id="lab-input" class="lab-text-input" placeholder="e.g. hey I need to build a barbershop appointment booking system with stripe integration and calendar sync but don't use nextjs or tailwind we want raw fastify and vanilla js and make sure two people can't double book the same barber slot at the same second so use optimistic locking or postgres transactions and don't write generic mock code give me the actual db schema and route handler"></textarea>
+
+              <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+                <button id="btn-run-compile" class="text-action-link" type="button" style="cursor: pointer; background: transparent; border: none; font-size: 14px;">
+                  Compile Prompt &rarr;
+                </button>
+                <button id="btn-reset-input" class="text-subtle-link" type="button" style="cursor: pointer; background: transparent; border: none; font-size: 13px;">
+                  Reset
+                </button>
+              </div>
+
+              <div class="lab-feedback-list" id="lab-diagnostics"></div>
+            </div>
+
+            <!-- Right Column: Compiled Contract -->
+            <div class="lab-col output-col">
+              <div class="col-header-bar">
+                <span class="col-label-title">Compiled Prompt Contract (After)</span>
+                <span class="score-chip airtight" id="clarity-after">Clarity: 100/100 (Airtight)</span>
+              </div>
+
+              <div id="lab-output" class="lab-text-output"></div>
+
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-top: auto;">
+                <span style="font-size: 11px; font-weight: 700; color: var(--brand-blue);">
+                  Synthesized via Echo Meta-Compiler
+                </span>
+                <button id="btn-copy-contract" class="text-action-link" type="button" style="cursor: pointer; background: transparent; border: none; font-size: 13px;">
+                  Copy Prompt
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3-Step Guided Installation -->
+      <section id="installation" class="installation-section fade-in-element">
+        <div class="install-header-row">
+          <div class="stagger-num">ONBOARDING</div>
+          <h2 class="stagger-heading">Install Echo in 30 seconds</h2>
+          <p class="stagger-p">No account required. Operates 100% locally in your browser with zero data tracking.</p>
+        </div>
+
+        <div class="install-grid-3">
+          <div class="install-col-card">
+            <div class="install-num">01 / DOWNLOAD</div>
+            <h3 class="install-title">Download Package</h3>
+            <p class="install-body">
+              Download the unpacked extension package directly from this page and extract the zip archive to any folder on your computer.
+            </p>
+            <div style="margin-top: 18px;">
+              <a href="assets/echo-extension.zip" download class="text-action-link" style="font-size: 13px;">
+                Download echo-extension.zip &darr;
+              </a>
+            </div>
+          </div>
+
+          <div class="install-col-card">
+            <div class="install-num">02 / DEVELOPER MODE</div>
+            <h3 class="install-title">Open Extensions Tab</h3>
+            <p class="install-body">
+              In Google Chrome, Brave, or Edge, visit <code>chrome://extensions</code> and switch on the <strong>Developer mode</strong> toggle in the upper right.
+            </p>
+          </div>
+
+          <div class="install-col-card">
+            <div class="install-num">03 / LOAD UNPACKED</div>
+            <h3 class="install-title">Load Unpacked</h3>
+            <p class="install-body">
+              Click <strong>Load unpacked</strong>, choose the extracted Echo directory, then open ChatGPT, Claude, or Gemini and press <code>Alt+E</code>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Architectural Comparison Matrix -->
+      <section id="comparison" class="matrix-section fade-in-element">
+        <div class="matrix-header-row">
+          <div class="stagger-num">ARCHITECTURAL CONTRAST</div>
+          <h2 class="stagger-heading">Why standard prompting fails</h2>
+          <p class="stagger-p">How Echo compares to unassisted prompting and generic string-appending add-ons.</p>
+        </div>
+
+        <div class="matrix-table-wrap">
+          <table class="matrix-table">
+            <thead>
+              <tr>
+                <th>Capability</th>
+                <th>Raw Human Typing</th>
+                <th>Generic Add-ons</th>
+                <th class="highlight">Echo Prompt Compiler</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Decompiles Stream-of-Consciousness</td>
+                <td>No (Produces hallucination vectors)</td>
+                <td>Appends static strings ("be concise")</td>
+                <td class="highlight">Yes (Extracts intent, tasks, and bounds)</td>
+              </tr>
+              <tr>
+                <td>Negative Constraint Enforcement</td>
+                <td>Frequently violated due to recency bias</td>
+                <td>None</td>
+                <td class="highlight">Promotes to Top-Level Constraints</td>
+              </tr>
+              <tr>
+                <td>In-DOM In-Chat Integration</td>
+                <td>Standard textarea input</td>
+                <td>Bulky sidebar iframe</td>
+                <td class="highlight">Native In-DOM Floating Pill &amp; Alt+E</td>
+              </tr>
+              <tr>
+                <td>Privacy &amp; Data Collection</td>
+                <td>Hosted on remote cloud logs</td>
+                <td>Telemetry &amp; prompt tracking</td>
+                <td class="highlight">100% Private (Local In-Browser Pipeline)</td>
+              </tr>
+              <tr>
+                <td>Execution Latency</td>
+                <td>Zero</td>
+                <td>2-4 seconds</td>
+                <td class="highlight">Sub-Second &lt; 500ms</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- Swiss Gallery Footer -->
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-copy">
+          <strong>Echo</strong>
+          <span>&bull;</span>
+          <span>The AI Prompt Compiler</span>
+        </div>
+        <div class="footer-links-list">
+          <a href="https://github.com/MrYharon/Echo" target="_blank" class="footer-anchor">GitHub</a>
+          <a href="#installation" class="footer-anchor">Install Guide</a>
+          <a href="#laboratory" class="footer-anchor">Laboratory</a>
+          <a href="assets/echo-extension.zip" download class="footer-anchor">Download Extension</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="lib/analyzer.js"></script>
+  <script src="lib/architect.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
